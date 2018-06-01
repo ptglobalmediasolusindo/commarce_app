@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include commarce *.css
+recursive-include commarce *.csv
+recursive-include commarce *.html
+recursive-include commarce *.ico
+recursive-include commarce *.js
+recursive-include commarce *.json
+recursive-include commarce *.md
+recursive-include commarce *.png
+recursive-include commarce *.py
+recursive-include commarce *.svg
+recursive-include commarce *.txt
+recursive-exclude commarce *.pyc
